@@ -1,7 +1,97 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+.secondaryTitle {
+    font-family: Work sans;
+    font-weight: semibold;
+    font-size: 40px;
+    opacity: 70%;
+}
+
+.para {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+}
+.spaceEvenly{
+    display: flex;
+    justify-content:space-evenly;
+}
+.about-btn {
+    border: none;
+    color: white;
+    font-family: Segoe UI;
+    font-size: 18px;
+    text-align: centers;
+    border-radius: 26px;
+    width: 35%;
+    height: 45px;
+    background-color: #E71382;
+    background-image: linear-gradient(to right, #E71382, #FD256B);
+   
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 5px;
+
+}
+
+.buttonfont {
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+
+.buttonClass {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttonTransperant {
+
+    border: none;
+    color: grey;
+    font-family: Segoe UI;
+    font-size: 18px;
+    text-align: centers;
+    border-radius: 26px;
+    width: 35%;
+    height: 45px;
+    background-color: #E71382;
+    background-image: linear-gradient(to right, #fff, #fff);
+    opacity: 30%;
+       
+}
+
+.mainTitle {
+    font-family: 'TypoGraphica', sans-serif;
+    font-size: 95px;
+    letter-spacing: 5px;
+}
+
+.secotionTitle {
+    font-family: 'TypoGraphica', sans-serif;
+    font-size: 65px;
+    letter-spacing: 5px;
+    color: #181820;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+img {
+    overflow: hidden;
 }
 
 .carousel .carousel-indicators li {
@@ -15,63 +105,85 @@
     top: 10px;
 
 }
+
 .upper {
     position: absolute;
     top: 400px;
     left: 0;
 
 }
+
 .top-div {
     position: absolute;
     top: 98vh;
     height: 100%;
     width: 1000%;
 }
+
 .one {
     height: 100vh;
 }
+
 .glow {
     box-shadow: 1px 1px 25px 25px rgba(20, 170, 150, 0.289);
     border-radius: 15px;
 }
 
 
-.fontTypo {
-    font-family: typographica;
-    font-weight: 500;
-}
+
 
 .heading {
     display: flex;
     align-items: center;
     align-self: center;
+
 }
-.divBg{
+
+.divBg {
     background-color: #1E1F24;
 
 }
-.gradPinkR{
-    width: 20%;
-    height: 10px;
+
+.gradPinkR {
+    width: 10%;
+    height: 8px;
     border-radius: 50px;
     background-image: linear-gradient(to right, #FC246D, #1E1F24);
- 
+
 }
-.gradPinkL{
-    width: 20%;
+
+.gradPinkRW {
+    width: 10%;
+    height: 10px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #FC246D, white);
+
+}
+
+.gradPinkLW {
+    width: 10%;
+    height: 10px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left, #FC246D, white);
+
+}
+
+.gradPinkL {
+    width: 10%;
     height: 10px;
     border-radius: 50px;
     background-image: linear-gradient(to left, #FC246D, #1E1F24);
 }
 
-.gradTwo{
+.gradTwo {
     width: 100%;
     /* background-color: white; */
     height: 30px;
     border-radius: 50px;
     background-image: linear-gradient(to right, #09C7D7, #1E1F24);
 }
-.gradOne{
+
+.gradOne {
     width: 100%;
     /* background-color: white; */
     height: 30px;
@@ -91,6 +203,7 @@
     margin-top: -125px;
     width: 100%;
     z-index: 999;
+    overflow: hidden;
 
 }
 
@@ -98,35 +211,165 @@
     width: 1921px;
     height: 1200px;
 }
+
 .video {
     height: 400px;
     width: 630px;
     border-radius: 15px;
     box-shadow: 1px 1px 25px 25px rgba(20, 170, 150, 0.289);
 }
-.containerMargin{
-    margin-top:280px;
+
+.containerMargin {
+    margin-top: 280px;
 }
+
 .secondBoxText {
-    margin-top:90px;
+    margin-top: 90px;
     font-size: 52px;
-    align-self: center !important;'
-    
+    align-self: center !important;
+
 }
-.mt-100{
-    margin-top:100px;
+
+.mt-100 {
+    margin-top: 100px;
 }
 
 
- 
+
 /* howitwork */
-.olStyle{
-    padding:50px 90px;
+.olStyle {
+    padding: 50px 90px;
 }
 
 /* feature Movies */
-.featureMoviesBg{
+.featureMoviesBg {
     background-image: url(/images/featurebg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
+
+
+
+/* aboutUs */
+.aboutImgL {
+    display: flex;
+    align-items: center;
+    height: 145vh;
+    background-image: url(/images/aboutl.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+
+}
+
+.aboutImgR {
+    display: flex;
+    align-items: center;
+    height: 145vh;
+    background-image: url(/images/aboutr.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.aboutImgTh {
+
+    display: flex;
+    height: 145vh;
+    background-image: url(/images/aboutuslr.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.rightImg {
+    margin-top: 100px;
+    padding: 40px;
+    align-self: center;
+
+}
+
+.standardImg {
+    width: 90%;
+    padding-left: 60px;
+}
+.middleL{
+padding: 150px 180px;
+}
+.middleLC{
+   padding:151px  340px 150px 130px;
+    }
+.middleR {
+    align-self: center;
+    padding: 165px;
+}
+
+.thirdBg {
+
+    background-image: url(/images/aboutuslr.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 195vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* what client says about uslr */
+
+#whatClient {
+    background-image: url(/images/ab.png);
+   position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    height: 162vh;
+    overflow: hidden;
+    margin-top: -290px;
+    z-index: 555;
+
+}
+
+.indicator {
+    color: black;
+}
+
+/* meet-team-member */
+#meetTeamMembers {
+    background-image: url(/images/meetTeamMembers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -555;
+    position: relative;
+    margin-top:-120px;
+}
+.meetTeam{
+     display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.personName{
+    display: none;
+    position: absolute;
+    bottom:8px;
+    font-family: Raleway;
+    color:#E71382;
+}
+.getInTouch{
+    background-image: url(/images/getInTouch.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.contactFont{
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;   
+}
+.footer{
+    font-family: Work sans;
+    font-weight: semibold;
+    font-size: 40px;
+    color: grey;
+}
+    
